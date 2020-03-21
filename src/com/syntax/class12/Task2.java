@@ -10,7 +10,7 @@ public class Task2 {
 		System.out.println("Enter a string please :");
 		String text=input.nextLine();
 		
-		if(!text.isEmpty())
+	
 		
 		
 		

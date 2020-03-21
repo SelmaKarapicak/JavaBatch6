@@ -1,5 +1,7 @@
 package com.syntax.class05;
 
+import java.util.Scanner;
+
 public class LogicalNot {
 
 	public static void main(String[] args) {
@@ -8,7 +10,7 @@ public class LogicalNot {
 		
 		
 		boolean b=!true;
-		boolean
+		
 		
 
 		if(!cold) {
