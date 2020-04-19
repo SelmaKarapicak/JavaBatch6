@@ -46,6 +46,9 @@ public class Garage {
 		//Bike bike1=new Bike();
 		//new bike cannot create becs you do not have a class for bike
 		
+		Car2 anotherCar=new Car2();
+		anotherCar.make="Toyota";
+		anotherCar.speed=200;
 		
 		
 

@@ -7,6 +7,18 @@ public class Dog {
 	String name;
 	int age;
 	
+	void eat() {
+    	System.out.println(name+" can eat");
+    }
+    	
+    	void bark() {
+    		System.out.println(name+" can bark");
+    	}
+    	
+    	void run() {
+    		System.out.println(name+" can run");
+    	}
+	
 public static void main(String[] args) {
 		
 		Dog dog1=new Dog();
@@ -31,17 +43,7 @@ public static void main(String[] args) {
 
 		
 }
-        void eat() {
-    	System.out.println(name+" can eat");
-    }
-    	
-    	void bark() {
-    		System.out.println(name+" can bark");
-    	}
-    	
-    	void run() {
-    		System.out.println(name+" can run");
-    	}
+        
     
 		
 

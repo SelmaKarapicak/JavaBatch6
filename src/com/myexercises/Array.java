@@ -2,16 +2,24 @@ package com.myexercises;
 
 public class Array {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		int[] years={2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020};
-	    
-	    for(int year:years){
-	      
-	      System.out.println(year);
-	    }
-
+	protected static int maxLength (String[] arr){
+		  
+		  int largest=arr[0].length();
+		  for(int i=0; i<arr.length; i++){
+		    if (arr[i].length()>largest){
+		      largest=arr[i].length();
+		    }
+		  }
+		return largest;
+		  
+		  
 	}
+	
+	
+public static void main(String[] args) {
+			String[] arr = {"hey","yolo","hi","this is long"};
+			System.out.println(maxLength(arr));
+			//should print "this is long"
+		}
 
 }
